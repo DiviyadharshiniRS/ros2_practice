@@ -1,0 +1,13 @@
+[INFO] [turtlesim]: Starting turtlesim with node name /turtlesim
+[INFO] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+
+# Example WARN messages showing turtle hit walls
+[WARN] [turtlesim]: Oh no! I hit the wall! (Clamping from [x=11.096063, y=3.837468])
+[WARN] [turtlesim]: Oh no! I hit the wall! (Clamping from [x=11.114663, y=3.818501])
+
+# List topics
+/parameter_events
+/rosout
+/turtle1/cmd_vel
+/turtle1/color_sensor
+/turtle1/pose

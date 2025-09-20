@@ -1,0 +1,9 @@
+# Run turtlesim node
+ros2 run turtlesim turtlesim_node
+
+# Control turtle using keyboard
+ros2 run turtlesim turtle_teleop_key
+
+# Check topics
+ros2 topic list
+ros2 topic echo /turtle1/cmd_vel
