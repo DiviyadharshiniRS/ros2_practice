@@ -1,0 +1,5 @@
+# Run the listener node
+ros2 run demo_nodes_cpp listener
+
+# (Optional) Verify that listener is subscribed to /chatter
+ros2 topic list

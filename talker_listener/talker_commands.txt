@@ -1,0 +1,7 @@
+# Run the talker node
+ros2 run demo_nodes_cpp talker
+
+# (Optional) Check the topics published by talker
+ros2 topic list
+ros2 topic echo /chatter
+
